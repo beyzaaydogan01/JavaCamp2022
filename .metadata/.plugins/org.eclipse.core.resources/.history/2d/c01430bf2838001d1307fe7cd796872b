@@ -1,0 +1,20 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 97;
+		int remainder = number % 2;
+		System.out.println(remainder);
+		
+		// 1 ve kendinden başka pozitif tam sayı böleni
+		// olmayan sayıya asal sayı denir.
+		
+		
+		if(remainder == 1 || number == 2) {
+			System.out.println("Asaldır");
+		}else {
+			System.out.println("Asal değildir");
+		}
+	}
+}

@@ -1,0 +1,36 @@
+package mukemmelSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		//kendinden başka pozitif tüm tam bölenlerin toplamı kendisine eşit olan sayıya mükemmel sayı denir
+		//6 --->1,2,3
+		//26--->1,2,4,7,14
+		
+		int number = 8;
+		int total = 0;
+		boolean mukemmelMi = false;
+		
+		for(int i=1;i<number;i++) {
+			if(number%i == 0) {
+				total = total + i;
+			}
+			
+		}
+		System.out.println(total);
+		if(total == number) {
+			System.out.println("sdf");
+		}
+	
+		
+		
+		if(mukemmelMi == true) {
+			System.out.println("Mükemmel sayıdır");
+		}else {
+			System.out.println("Mükemmel sayı değildir");
+		}
+		
+
+	}
+
+}

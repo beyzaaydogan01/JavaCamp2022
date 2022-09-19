@@ -1,0 +1,19 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+		char harf = 'A';
+		char inceHarfler = {"E","İ","Ö","Ü"};
+		
+		
+		char[] kalinHarf = {'A','I','O','U'};
+		char[] inceHarf = {'E','İ','Ö','Ü'};
+		
+		if(harf == inceHarfler) {
+			
+		}
+		
+	}
+
+}

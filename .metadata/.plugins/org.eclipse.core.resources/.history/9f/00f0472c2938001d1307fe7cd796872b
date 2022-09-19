@@ -1,0 +1,25 @@
+package miniProjeAsalSayi;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int number = 98;
+		int remainder = number % 2;
+		System.out.println(remainder);
+		boolean isPrime = false;
+		
+		// 1 ve kendinden başka pozitif tam sayı böleni
+		// olmayan sayıya asal sayı denir.
+		
+		for(int i=2; i<number; i++) {
+			if(remainder == 0) {
+				System.out.println(isPrime);
+				break;
+			}else {
+				System.out.println("Asaldır");
+			}
+		}
+		
+		
+	}
+}
